@@ -1,0 +1,59 @@
+object Form2: TForm2
+  Left = 873
+  Height = 324
+  Top = 270
+  Width = 452
+  Caption = 'Form2'
+  ClientHeight = 324
+  ClientWidth = 452
+  Position = poMainFormCenter
+  LCLVersion = '1.6.2.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 324
+    Top = 0
+    Width = 232
+    Align = alClient
+    Lines.Strings = (
+      'x^2+y^2'
+      'x,y'
+      '2*x+y-2'
+      '1,1'
+      'x^2+y^2'
+      'x,y'
+      'x+y-1'
+      '1,1'
+      'y^2-x^2'
+      'x,y'
+      'y-2*x'
+      '1,1'
+      'x*y'
+      'x,y'
+      'x^2+y^2-1'
+      '1,1'
+    )
+    TabOrder = 0
+  end
+  object Memo2: TMemo
+    Left = 232
+    Height = 324
+    Top = 0
+    Width = 220
+    Align = alRight
+    Lines.Strings = (
+      '.7999996526786414'
+      '.4000006947877713'
+      '[- .7999999511428717]'
+      '0.499999999999994'
+      '0.499999999999994'
+      '[- 1.000000000000015]'
+      '- 6.703769343621699E-6'
+      '- 1.3394135278728664E-5'
+      ' [1.3551605546006668E-5]'
+      '.7071067818819046'
+      '.7071067818819046'
+      '[- .5000001966659628]'
+    )
+    TabOrder = 1
+  end
+end
